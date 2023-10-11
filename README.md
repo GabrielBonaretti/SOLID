@@ -60,10 +60,10 @@ public class Trainee {
     public double aux() {/*...*/}
 }
 
-public class FolhaDePagamento {
+public class Payroll {
     private double balance;
 
-    public void calcular(Object functionary) {
+    public void calculate(Object functionary) {
         if (functionary instanceof ContractClt) {
             ContractClt contractClt = (ContractClt) functionary;
             this.balance = contractClt.salary();
